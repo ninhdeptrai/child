@@ -1,0 +1,121 @@
+.screen-m0{
+	background-position: center;
+    background-size: 100% 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+.screen-m0 .actor_list {
+    bottom: 50px;
+    left: 20%;
+    right: 0;
+    justify-content: flex-start;
+}
+.screen-m0 .actor_list .actor-1 {
+    position: absolute;
+    left: 0%;
+    bottom: 22%;
+    z-index: 3;
+}
+.actor .images {
+    position: relative;
+    height: 180px;
+    text-align: center;
+    /*transform: scaleX(-1);*/
+}
+.screen-m0 .actor_list .actor-1 .container-chat{
+    position: absolute;
+    width: 120px;
+    top: -65px;
+    left: -80px;
+    display: none;
+}
+.screen-m0 .actor_list .actor-1 .chat{
+    position: absolute;
+    width: 120px;
+}
+.screen-m0 .actor_list .actor-1 .mess{
+    position: absolute;
+    -webkit-text-fill-color: #272525;
+    left: 40%;
+    margin-top: 15%;
+}
+.screen-m0 .actor_list .m0-gif1{
+    display: none;
+}
+.m0-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin:10px 0;
+    color: red;
+    font-size: 50px;
+    font-family:Gill Sans Ultra Bold Condensed;
+    font-weight: bold;
+}
+.m0-container-bus{
+    position: absolute;
+    bottom: 20px;
+    right: -500px;
+    transition-duration: 3s;
+    z-index: 5;
+}
+.m0-bus{
+    width: 430px;
+}
+.m0-bus-stop{
+    display: none;
+}
+.screen-m0 .actor_list .actor-2 {
+    position: absolute;
+    transition-duration: 2s;
+    right: 20%;
+    bottom: 22%;
+}
+.screen-m0 .actor_list .actor-2{
+    display: none;
+}
+.m0-static2{
+    display: none;
+}
+.screen-m0 .actor_list .actor-3 {
+    position: absolute;
+    transition-duration: 3s;
+    right: 20%;
+    bottom: 25px;
+}
+.screen-m0 .actor_list .actor-3{
+    display: none;
+}
+.m0-static3{
+    display: none;
+}
+.screen-m0 .actor_list .actor-4 {
+    position: absolute;
+    transition-duration: 3s;
+    right: 10%;
+    bottom: -30px;
+}
+.screen-m0 .actor_list .actor-4{
+    display: none;
+    z-index: 10;
+}
+.m0-static4{
+    transform: scaleX(-1);
+    display: none;
+}
+.m0-sub-voice{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Stencil Std;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E96448;
+    display: none;
+}

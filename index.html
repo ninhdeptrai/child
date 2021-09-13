@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Screen m1</title>
+  <link rel="stylesheet" href="./lib/bootstrap-4.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./lib/css/index.css">
+  <link rel="stylesheet" href="./lib/css/kid.css">
+  <style>
+</style>
+</head>
+<body>
+  <section>
+    <div class="screen kid-m1" style="background-image: url('./lib/images/KID_M1/bg-01.png');">
+      
+      <div class="content">
+        <div class="list-page">
+          <img class="kid-sound mute" id="kid-mute-sound" src="./lib/images/KID/mute-sound.png">
+          <img class="kid-sound sound" id="kid-sound" src="./lib/images/KID/sound.png">
+          <select value="listpage" onchange="location = this.value;">
+            <option value="./index.html" selected="select"> <a href="./index.html">1</a> </option>
+            <option value="./kid_m2.html"> <a href="./kid_m2.html">2</a> </option>
+            <option value="./kid_m3.html"> <a href="./kid_m3.html">3</a> </option>
+          </select>
+        </div>
+        <a href="./kid_m2.html">
+          <img class="kid-chu-01" id="kid-chu-01" src="./lib/images/KID_M1/chu-01.png">
+        </a>
+      </div>
+
+      <div class="buttons-bottom">
+        <div class="btn-prev">
+          <a href="./index.html">
+            <!-- <img src="./lib/images/KID/previous.png" alt=""> -->
+          </a>
+        </div>
+        <div class="btn-next">
+          <a href="./kid_m2.html">
+            <img src="./lib/images/KID/next.png" alt="">
+          </a> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <audio src="./lib/images/KID_M1/voices/soundtrack.mp3" autoplay loop="true"></audio> -->
+
+  <script src="lib/js/jquery-3.6.0.min.js"></script>
+  <script src="lib/js/main.js"></script>
+  <script src="lib/js/kid.js"></script>
+
+</body>
+</html>

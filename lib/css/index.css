@@ -1,0 +1,673 @@
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+} */
+
+body {
+  cursor: url("../images/M1/b-default.png"), auto;
+  min-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body #screen-1 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body #screen-1 .back-to-school {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+body #screen-1 .back-to-school:hover {
+  cursor: url("../images/M1/b-pointer.png"), pointer;
+}
+
+body #screen-1 .back-to-school .shake {
+  animation: shake 3s ease infinite;
+}
+
+body #screen-1 .back-to-school .back-to {
+  display: flex;
+}
+
+body #screen-1 .back-to-school .back-to #back {
+  width: 70%;
+  left: 0;
+  bottom: 0;
+}
+
+body #screen-1 .back-to-school .back-to #back.animation-to-left {
+  position: absolute;
+  animation: to-left 7s ease;
+  animation-direction: alternate;
+}
+
+body #screen-1 .back-to-school .back-to #to {
+  width: 30%;
+  left: 70%;
+  bottom: 0;
+}
+
+body #screen-1 .back-to-school .back-to #to.animation-to-right {
+  position: absolute;
+  animation: to-right 7s ease;
+  animation-direction: alternate;
+}
+
+body #screen-1 .back-to-school #school {
+  width: 100%;
+  top: 0;
+}
+
+body #screen-1 .back-to-school #school.animation-bottom-to-right {
+  position: absolute;
+  animation: bottom-to-right 7s ease;
+  animation-direction: alternate;
+}
+
+body #screen-2 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+body #screen-2 .cloud-first {
+  position: absolute;
+  left: 20%;
+  top: 0;
+  transform: translate(-20%, 0%);
+  width: 20%;
+}
+
+body #screen-2 .cloud-first img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-animation: move-clouds-first 20s linear infinite;
+  -moz-animation: move-clouds-first 20s linear infinite;
+  -o-animation: move-clouds-first 20s linear infinite;
+}
+
+body #screen-2 .cloud-second {
+  position: absolute;
+  left: 70%;
+  top: 0;
+  transform: translate(-70%, 0);
+  width: 20%;
+}
+
+body #screen-2 .cloud-second img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-animation: move-clouds-second 20s linear infinite;
+  -moz-animation: move-clouds-second 20s linear infinite;
+  -o-animation: move-clouds-second 20s linear infinite;
+}
+
+.bird {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  transform: translate(-70%, 0);
+  width: 10%;
+}
+
+.bird:hover {
+  cursor: url("../images/M1/b-pointer.png"), pointer;
+}
+
+.bird img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-animation: move-bird 20s linear infinite;
+  -moz-animation: move-bird 20s linear infinite;
+  -o-animation: move-bird 20s linear infinite;
+}
+
+body #screen-2 .actor-1 span {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  color: #000000bf;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000bf;
+}
+body #screen-2 .actor-2 span {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  top: -20px;
+  color: #000000bf;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000bf;
+}
+body #screen-2 .actor-3 span {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  color: #000000bf;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000bf;
+}
+body #screen-2 .actor-4 span {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  color: #000000bf;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000bf;
+}
+.buttons-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+}
+
+.buttons-bottom .btn-prev {
+  margin-left: 8px;
+}
+
+.buttons-bottom .btn-next {
+  margin-right: 8px;
+}
+
+body .ripple {
+  width: 10;
+  height: 10;
+  background-color: transparent;
+  position: fixed;
+  border-radius: 50%;
+  border: 1px solid #1b1b1b59;
+}
+
+@keyframes move-clouds-first {
+  0% {
+    margin-left: 450%;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+
+@keyframes move-clouds-second {
+  0% {
+    margin-left: 450%;
+  }
+  100% {
+    margin-left: -400%;
+  }
+}
+
+@keyframes move-bird {
+  0% {
+    margin-left: -50%;
+  }
+  100% {
+    margin-left: 800%;
+  }
+}
+
+@keyframes to-right {
+  0% {
+    left: 70%;
+    bottom: 0;
+  }
+  100% {
+    left: 150%;
+    bottom: 0;
+  }
+}
+
+@keyframes bottom-to-right {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: 150%;
+    top: 0;
+  }
+}
+
+@keyframes to-left {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  100% {
+    left: -150%;
+    bottom: 0;
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(0.5deg);
+  }
+  10% {
+    -webkit-transform: rotate(-5deg) scale(1) skew(0.5deg);
+  }
+  20% {
+    -webkit-transform: rotate(5deg) scale(1) skew(0.5deg);
+  }
+  30% {
+    -webkit-transform: rotate(-5deg) scale(1) skew(0.5deg);
+  }
+  40% {
+    -webkit-transform: rotate(5deg) scale(1) skew(0.5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(0.5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(0.5deg);
+  }
+}
+
+@keyframes ripple-effect {
+  to {
+    transform: scale(15);
+    opacity: 0.01;
+  }
+}
+
+.screen {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.screen .buttons-group {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  z-index: 1;
+}
+
+.screen .buttons-group .btn-item {
+  position: relative;
+}
+
+.screen .buttons-group .btn-item a {
+  padding: 0;
+}
+
+.screen .buttons-group .btn-item a:hover {
+  text-decoration: none;
+}
+
+.screen .buttons-group .btn-item img {
+  height: 60px;
+  margin: 0 8px;
+}
+
+.screen .buttons-group .btn-item img:hover {
+  border: 1px solid #ffa500;
+  border-radius: 16px;
+}
+
+.screen .buttons-group .btn-item span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-weight: 700;
+}
+
+.screen .cloud-first {
+  position: absolute;
+  left: 20%;
+  top: 0;
+  transform: translate(-20%, 0%);
+  width: 20%;
+}
+
+.screen .cloud-first img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-animation: move-clouds-first 20s linear infinite;
+  -moz-animation: move-clouds-first 20s linear infinite;
+  -o-animation: move-clouds-first 20s linear infinite;
+}
+
+.screen .cloud-second {
+  position: absolute;
+  left: 70%;
+  top: 0;
+  transform: translate(-70%, 0);
+  width: 20%;
+}
+
+.screen .cloud-second img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-animation: move-clouds-second 20s linear infinite;
+  -moz-animation: move-clouds-second 20s linear infinite;
+  -o-animation: move-clouds-second 20s linear infinite;
+}
+
+.screen .actor span {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  color: #000000bf;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000bf;
+}
+
+.screen .buttons-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+.screen .buttons-bottom .btn-prev {
+  margin-left: 8px;
+}
+
+.screen .buttons-bottom .btn-next {
+  margin-right: 8px;
+}
+/*# sourceMappingURL=index.css.map */
+.event_none {
+  pointer-events: none;
+}
+#sub_void {
+  position: fixed;
+  bottom: 50px;
+  padding: 15px 30px;
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  min-width: 250px;
+  font-size: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 99;
+}
+.actor_list {
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.actor_list .actor {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  transform: translate(0, 0);
+}
+.actor {}
+.actor .sub_void {
+  display: none;
+}
+.actor .name {
+  position: absolute;
+  top: -15px!important;
+  transform: translateY(-100%);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.actor .images {
+  position: relative;
+  height: 300px;
+  text-align: center;
+}
+.actor .images img {
+  height: 100%;
+  width: auto!important;
+}
+.actor .images img.static {
+  transition: all .3s;
+}
+.actor .images img.gif {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  opacity: 0;
+  transition: all .3s;
+}
+.actor.action .images img.static {
+  opacity: 0;
+}
+.actor.action .images img.gif {
+  opacity: 1;
+}
+.void_bg, .void_bird {
+  position: absolute;
+  left: -999px;
+}
+/* m2 */
+#screen-2 .actor_list {
+  padding-right: 20%;
+}
+
+/* m3 */
+.screen-3 {
+  background-position: bottom center;
+}
+.screen-3 .actor_list {
+  bottom: 50px;
+  left: 25%;
+  right: 0;
+  justify-content: flex-start;
+}
+.screen-3 .actor_list .actor-1 {
+  position: absolute;
+  left: 25%;
+  bottom: 22%;
+  z-index: 3;
+}
+.screen-3 .actor_list .actor-2 {
+  position: absolute;
+    left: 13%;
+    bottom: 12%;
+    z-index: 2;
+}
+.screen-3 .actor_list .actor-3 {
+  
+}
+.screen-3 .actor_list .actor-4 {
+  position: absolute;
+  right: 0;
+}
+
+
+/* m4 */
+.screen-4 {
+  background-position: bottom center;
+}
+.screen-4 .content{
+  height: 100vh;
+}
+.screen-4 .actor_list {
+  bottom: 100px;
+}
+.screen-4 .actor_list .actor-3 {
+  margin-left: 50px;
+}
+
+/* m6 */
+.screen-6 .actor_list {
+  width: 40.5%;
+  left: 43.5%;
+  bottom: 26%;
+}
+.screen-6 .actor {
+  width: 25%;
+  margin: 0!important;
+}
+.screen-6 .actor .images {
+  height: auto;
+  padding: 0 15px;
+}
+.screen-6 .actor .images img {
+  width: 100%!important;
+  height: auto;
+}
+/* m6 */
+.screen-7 {
+  overflow: hidden;
+}
+.screen-7 .actor_list {
+  width: 70%;
+  margin: auto;
+  bottom: 10%;
+}
+.screen-7 .actor {
+  text-align: center;
+  width: 25%;
+}
+.screen-7 .actor .images {
+  display: inline-block;
+}
+.screen-7 .actor .images img  {
+  margin: auto;
+}
+.screen-7 .actor .object {
+  position: absolute;
+  top: 0;
+  width: 37%;
+  left: 0;
+  right: 0;
+  height: 40%;
+  margin: auto;
+  z-index: 99;
+}
+.screen-8 .actor_list {
+  bottom: 50px;
+}
+.screen-8 .actor_list .actor {
+  width: 100%;
+  max-width: 450px;
+}
+.screen-8 .actor_list .actor .images {
+  height: 400px;
+}
+.screen-9 .actor_list {
+  bottom: 30%;
+}
+.screen-9  .actor_list .actor .object {
+  position: absolute;
+  bottom: -40px;
+  top: 100%;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: ease-in .3s;
+  transition-delay: 1s;
+}
+.screen-9  .actor_list .actor.action .object {
+  opacity: 1;
+  transform: translateY(0);
+}
+.screen-9  .actor_list .actor .object img {
+  width: 100px;
+}
+.screen-9  .actor_list .actor-1 .object {
+  left: 80%;
+}
+.screen-9  .actor_list .actor-2 .object {
+  left: 76%;
+}
+.screen-9  .actor_list .actor-3 .object {
+  left: 69px;
+}
+.screen-9  .actor_list .actor-4 .object {
+  left: 66%;
+}
+
+.screen-11 .actor_list {
+  bottom: 20%;
+  left: 4%;
+}
+.screen-11 .actor_list .actor-1 {
+  position: absolute;
+  right: 30%;
+  top: 36%;
+}
+.screen-11 .actor_list .actor-2 {
+  left: -18%;
+}
+.screen-11 .actor_list .actor-4 {
+  right: 41%;
+  position: absolute;
+  top: 18%;
+}
+.screen-11 .actor_list .actor-3 {
+  margin-left: 50px;
+  position: absolute;
+  top: 45%;
+  left: 29%;
+}

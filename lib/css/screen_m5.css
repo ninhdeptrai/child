@@ -1,0 +1,94 @@
+.screen-m5 {
+    position: relative;
+    background-repeat: no-repeat;
+    background: round;
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+}
+
+body {
+    cursor: url('../images/M4/cursor.png') 32 32, pointer;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.screen-m5 .body {
+    width: 83vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    height: 75vh;
+}
+
+#slideshow {
+    transition: 1s all;
+}
+
+#slideshow .slide {
+    float: right;
+    width: 84vh;
+    text-align: center;
+    height: 60vh;
+    padding-top: 15vh;
+}
+
+#slideshow .slide img {
+    height: 100%;
+}
+
+.screen-m5 .body .text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.screen-m5 .top img {
+    width: 40px;
+}
+
+.screen-m5 .top {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 45px;
+    min-height: 70px;
+}
+
+.screen-m5 .footer {
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.screen-m5 .footer img{
+    width: 150px;
+    height: 50px;
+}
+.screen-m5 .footer img:hover {
+    opacity: 0.7;
+}
+
+#button-ok{
+    width: 150px;
+    height: 50px;
+    background-color: #1cc5a3;;
+    border-radius: 40px;
+    color: #ffffff;
+    border: none;
+}
+
+.screen-m5 .btn-play{
+    position: absolute;
+    border: none;
+    background: none;
+    top: 30vh;
+    left: 33%;
+    z-index: 1000;
+}

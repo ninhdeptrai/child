@@ -1,0 +1,84 @@
+body{
+	cursor: url("../images/KID/cursor.png"), auto;
+}
+.buttons-bottom img {
+	width: 50px;
+	margin-bottom: 10px;
+}
+.kid-sub-void{
+	position: fixed;
+	bottom: 50px;
+	padding: 15px 30px;
+	background: #333;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	min-width: 250px;
+	font-size: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+	opacity: 0.9;
+	z-index: 99;
+}
+.list-page{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-family: Arial, sans-serif;
+}
+.list-page select{
+	width: 40px;
+	height: 30px;
+	font-weight: bold;
+	focus:  none;
+	outline: none;
+	border-radius: 10px;
+    color: #fa7c0e;
+}
+.list-page select option{
+	font-weight: bold;
+}
+.list-page:hover{
+	cursor: url("../images/KID/cursor.png"), auto;
+}
+.kid-sound{
+	width: 30px;
+	margin-right: 15px;
+}
+.sound{
+	display: none;
+}
+
+/*kid-m1*/
+.kid-m1{
+	background-position: cover;
+    background-size: 100% 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.content .kid-chu-01{
+	width: 420px;
+	position: absolute;
+	top: 56%;
+	left: 8%;
+}
+
+/*kid-m2*/
+.content .kid-chu-02{
+	width: 300px;
+	position: absolute;
+	top: 3%;
+	left: 10%;
+}
+
+/*kid-m3*/
+.content .kid-chu-03{
+	width: 600px;
+	position: absolute;
+	top: 40%;
+	right: 5%;
+}

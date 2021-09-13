@@ -1,0 +1,78 @@
+body { cursor: url("../images/M1/b-default.png"), auto; margin-left: auto; margin-right: auto; }
+
+body #screen-m2 { position: relative; background-position: center; background-repeat: no-repeat; background-size: cover; height: 100vh; overflow: hidden; }
+
+body #screen-m2 .content { height: 100vh; }
+
+body #screen-m2 .content .actor_list .actor { position: relative; top: auto; left: auto; right: auto; bottom: auto; transform: translate(0, 0); }
+
+body #screen-m2 .content .actor_list .actor.action.actor-1 .images img.static { opacity: 0; }
+
+body #screen-m2 .content .actor_list .actor.action.actor-1 .images img.gif { opacity: 1; }
+
+body #screen-m2 .content .actor_list .actor.action.actor-2 .images img.static { opacity: 0; }
+
+body #screen-m2 .content .actor_list .actor.action.actor-2 .images img.gif { opacity: 1; }
+
+body #screen-m2 .content .actor_list .actor.actor-1 { position: absolute; left: 20%; bottom: 15%; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor.actor-1 { bottom: 10%; } }
+
+body #screen-m2 .content .actor_list .actor.actor-1 .communicate { display: none; left: -30px; }
+
+body #screen-m2 .content .actor_list .actor.actor-1 .communicate span { width: 155px; }
+
+body #screen-m2 .content .actor_list .actor.actor-1 .images { height: 330px; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor.actor-1 .images { height: 300px; } }
+
+body #screen-m2 .content .actor_list .actor.actor-2 { position: absolute; left: 65%; bottom: 15%; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor.actor-2 { bottom: 10%; } }
+
+body #screen-m2 .content .actor_list .actor.actor-2 .communicate { left: 80px; }
+
+body #screen-m2 .content .actor_list .actor.actor-2 .communicate span { width: 145px; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor.actor-2 .communicate span { width: 110px; } }
+
+body #screen-m2 .content .actor_list .actor.actor-2 .images { height: 450px; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor.actor-2 .images { height: 350px; } }
+
+body #screen-m2 .content .actor_list .actor .communicate { position: absolute; top: -15px; transform: translateY(-100%); text-align: center; }
+
+body #screen-m2 .content .actor_list .actor .communicate img { height: 180px; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor .communicate img { height: 150px; } }
+
+body #screen-m2 .content .actor_list .actor .communicate .text-wrapper { display: flex; position: absolute; left: 20px; top: calc(50% - 15px); transform: translateY(-50%); }
+
+body #screen-m2 .content .actor_list .actor .communicate .text-wrapper img { width: 30px; height: 30px; cursor: pointer; align-self: center; }
+
+body #screen-m2 .content .actor_list .actor .communicate .text-wrapper span { height: 110px; margin-left: 8px; color: #d33c3c; font-size: 1.5rem; line-height: 1.75rem; font-weight: 600; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-align: center; -webkit-box-pack: center; }
+
+@media (max-width: 1400px) { body #screen-m2 .content .actor_list .actor .communicate .text-wrapper span { line-height: 1.5rem; } }
+
+body #screen-m2 .content .actor_list .actor .images { position: relative; text-align: center; }
+
+body #screen-m2 .content .actor_list .actor .images img { height: 100%; width: auto; }
+
+body #screen-m2 .content .actor_list .actor .images img.static { transition: all 0.3s; }
+
+body #screen-m2 .content .actor_list .actor .images img.gif { position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 9; opacity: 0; transition: all 0.3s; }
+
+body #screen-m2 .content .actor_list .description { display: none; width: 500px; height: auto; position: absolute; left: 50%; bottom: 10%; transform: translateX(-50%); }
+
+body #screen-m2 .content .actor_list .description .image { text-align: center; }
+
+body #screen-m2 .content .actor_list .description .image img { height: 200px; }
+
+body #screen-m2 .content .actor_list .description .text { margin-top: 8px; text-align: center; font-size: 24px; font-weight: 600; color: white; }
+
+body #screen-m2 .buttons-bottom { width: 100%; display: flex; justify-content: space-between; position: fixed; bottom: 0; z-index: 99; left: 0; right: 0; }
+
+body #screen-m2 .buttons-bottom .btn-prev { margin-left: 8px; }
+
+body #screen-m2 .buttons-bottom .btn-next { margin-right: 8px; }
+/*# sourceMappingURL=screen_m2.css.map */

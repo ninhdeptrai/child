@@ -1,0 +1,46 @@
+.screen-m1{
+	background-position: center;
+    background-size: 100% 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+.m1-video{
+    width: 60%;
+}
+.wrapper{
+    position:relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+.wrapper-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.group-button{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b9b6b3;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 70px;
+}
+.icon{
+    width: 40px;
+    color: white;
+}
+.pause{
+    display: none;
+}
+.play{
+    position: absolute;
+    margin-left: 10px;
+}
